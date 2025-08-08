@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AnimalMatchingGame__Project2.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25"
+            VerticalOptions="Center">
+
+
+            <Button x:Name="PlayAgainButton" 
+                    Text="Play Again?" 
+                    FontSize="Large" 
+                    Clicked="PlayAgainButton_Clicked"/>
+            
+            <Label x:Name="TimeElapsed"
+                   Text="Timer Elapsed: 0.0 seconds"
+                   FontSize="Large"/>
+
+            <FlexLayout x:Name="AnimalButtons"
+                        MaximumWidthRequest="400" 
+                        Wrap="Wrap" IsVisible="False">
+                
+                <Button WidthRequest="100" HeightRequest="100"
+                        FontSize="60" BackgroundColor="#50FFF5" 
+                        BorderColor="#000000" BorderWidth="1"
+                        Clicked="Button_Clicked"/>
+
+                <Button WidthRequest="100" HeightRequest="100"
+                        FontSize="60" BackgroundColor="#50FFF5" 
+                        BorderColor="#000000" BorderWidth="1"
+                        Clicked="Button_Clicked"/>
+
+                <Button WidthRequest="100" HeightRequest="100"
+                        FontSize="60" BackgroundColor="#50FFF5" 
+                        BorderColor="#000000" BorderWidth="1"
+                        Clicked="Button_Clicked"/>
+
+                <Button WidthRequest="100" HeightRequest="100"
+                        FontSize="60" BackgroundColor="#50FFF5" 
+                        BorderColor="#000000" BorderWidth="1"
+                        Clicked="Button_Clicked"/>
+
+                <Button WidthRequest="100" HeightRequest="100"
+                        FontSize="60" BackgroundColor="#50FFF5" 
+                        BorderColor="#000000" BorderWidth="1"
+                        Clicked="Button_Clicked"/>
+
+                <Button WidthRequest="100" HeightRequest="100"
+                        FontSize="60" BackgroundColor="#50FFF5" 
+                        BorderColor="#000000" BorderWidth="1"
+                        Clicked="Button_Clicked"/>
+
+                <Button WidthRequest="100" HeightRequest="100"
+                        FontSize="60" BackgroundColor="#50FFF5" 
+                        BorderColor="#000000" BorderWidth="1"
+                        Clicked="Button_Clicked"/>
+
+                <Button WidthRequest="100" HeightRequest="100"
+                        FontSize="60" BackgroundColor="#50FFF5" 
+                        BorderColor="#000000" BorderWidth="1"
+                        Clicked="Button_Clicked"/>
+
+                <Button WidthRequest="100" HeightRequest="100"
+                        FontSize="60" BackgroundColor="#50FFF5" 
+                        BorderColor="#000000" BorderWidth="1"
+                        Clicked="Button_Clicked"/>
+
+                <Button WidthRequest="100" HeightRequest="100"
+                        FontSize="60" BackgroundColor="#50FFF5" 
+                        BorderColor="#000000" BorderWidth="1"
+                        Clicked="Button_Clicked"/>
+
+                <Button WidthRequest="100" HeightRequest="100"
+                        FontSize="60" BackgroundColor="#50FFF5" 
+                        BorderColor="#000000" BorderWidth="1"
+                        Clicked="Button_Clicked"/>
+
+                <Button WidthRequest="100" HeightRequest="100"
+                        FontSize="60" BackgroundColor="#50FFF5" 
+                        BorderColor="#000000" BorderWidth="1"
+                        Clicked="Button_Clicked"/>
+
+                <Button WidthRequest="100" HeightRequest="100"
+                        FontSize="60" BackgroundColor="#50FFF5" 
+                        BorderColor="#000000" BorderWidth="1"
+                        Clicked="Button_Clicked"/>
+
+                <Button WidthRequest="100" HeightRequest="100"
+                        FontSize="60" BackgroundColor="#50FFF5" 
+                        BorderColor="#000000" BorderWidth="1"
+                        Clicked="Button_Clicked"/>
+
+                <Button WidthRequest="100" HeightRequest="100"
+                        FontSize="60" BackgroundColor="#50FFF5" 
+                        BorderColor="#000000" BorderWidth="1"
+                        Clicked="Button_Clicked"/>
+
+                <Button WidthRequest="100" HeightRequest="100"
+                        FontSize="60" BackgroundColor="#50FFF5" 
+                        BorderColor="#000000" BorderWidth="1"
+                        Clicked="Button_Clicked"/>
+
+            </FlexLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
