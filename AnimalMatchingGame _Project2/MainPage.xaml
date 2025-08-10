@@ -18,6 +18,10 @@
             <Label x:Name="TimeElapsed"
                    Text="Timer Elapsed: 0.0 seconds"
                    FontSize="Large"/>
+            
+            <Label x:Name="MatchesFoundLabel"
+                   Text="Matches Found : 0"
+                   FontSize="Large"/>
 
             <FlexLayout x:Name="AnimalButtons"
                         MaximumWidthRequest="400" 
