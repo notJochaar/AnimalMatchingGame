@@ -26,7 +26,26 @@
                 animalEmoji.RemoveAt(index);
             }
 
-           // Dispatcher.StartTimer(TimeSpan.FromSeconds(.1), TimerTick);
+           Dispatcher.StartTimer(TimeSpan.FromSeconds(.1), TimerTick);
+        }
+
+        int tenthsOfSecondsElapsed = 0;
+
+        private bool TimerTick()
+        {
+            if(!this.IsLoaded)return false;
+
+            tenthsOfSecondsElapsed++;
+
+            TimeElapsed.Text = "Time elapsed: " + (tenthsOfSecondsElapsed / 10F).ToString("0.0s");
+
+            if (PlayAgainButton.IsVisible)
+            {
+                tenthsOfSecondsElapsed = 0;
+                return false;
+            }
+
+            return true;
         }
 
         Button LastClicked;
@@ -65,6 +84,7 @@
                     AnimalButtons.IsVisible = false;
                     PlayAgainButton.IsVisible = true;
                     MatchesFound = 0;
+                    MatchesFoundLabel.Text = $"Matches Found: {MatchesFound}";
                 }
             }
 
